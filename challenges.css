@@ -1,0 +1,36 @@
+button{
+    background-color: rgb(247, 94, 94);
+    border-radius: 5px;
+    font-style: italic;
+    font-weight: bold;
+ border: none;
+ padding-top: 5px;
+    color: aliceblue;
+ padding-bottom: 5px;
+
+}
+/* button.apple-shelf
+{
+    background-color: rgb(247, 94, 94);
+    border-radius: 5px;
+    font-style: italic;
+    font-weight: bold;
+ border: none;
+ padding-top: 5px;
+    color: aliceblue;
+ padding-bottom: 5px;
+
+}
+button.orange-shelf
+{
+    background-color: orange;
+    background-color: rgb(247, 94, 94);
+    border-radius: 5px;
+    font-style: italic;
+    font-weight: bold;
+ border: none;
+ padding-top: 5px;
+    color: aliceblue;
+ padding-bottom: 5px;
+
+} */
