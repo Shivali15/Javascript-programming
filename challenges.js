@@ -315,3 +315,111 @@ function sortfruit()
     }
 }
 sortfruit()
+
+
+// challenge :   const 
+//constant : variable which can not reassign 
+
+const baseprice= 520
+const discount =120
+let shippingcost = 12
+let shippingtime="5-12 days"
+
+shippingcost =15
+shippingtime="7-14 days"
+
+
+const fullprice = baseprice -discount+ shippingcost
+
+console.log("Total cost:" + fullprice +". It will arrive in  " + shippingtime)
+
+
+//chanllenge : innerHTML
+
+const contain=document.getElementById("container")
+  contain.innerHTML = "<button onclick='buy()'> BUY!  </button>"
+function buy()
+{
+    contain.innerHTML += "<p>Thank you for buying !</p>"
+}
+
+
+
+//challenge  : template strings /literals
+
+const recipient ="James"
+const sender ="shivali umbarkar"
+
+//refactor the email string to use template strings
+
+const email =` Hey  ${recipient} !
+               How is it going ? 
+               Cheers ${sender} `
+console.log(email)
+
+
+// challenge : truthy  and falsy vallue 
+
+console.log( Boolean("")   )  //false
+console.log( Boolean("0")   )   //true
+console.log( Boolean(100)   )   //true
+console.log( Boolean(null)   )   //false
+console.log( Boolean([0])   )  // true 
+console.log( Boolean(-0)  )    //false   negative value
+
+
+//challenge - parameterized function 
+
+const welcomeEl=document.getElementById("welcome-el")
+
+ function greetuser(name){
+     welcomeEl.textContent="welcome back,"+name+"##"
+ }
+
+ greetuser("shivali")
+
+
+ //challenge -2
+
+ const WelcomeEl=document.getElementById("Welcome-el")
+
+ function greetuser1(greeting,Name){
+     WelcomeEl.textContent= greeting+","+Name
+ }
+
+ greetuser1("Thank you ","shivali umbarkar")
+
+ //challenge -3  template literals
+
+ 
+ const WELCOMEEl=document.getElementById("Welcome-El")
+
+//              -----parameters------
+ function Greetuser1(greeting,Name){
+     WELCOMEEl.textContent= `${greeting } , ${Name}`
+ }
+//              --arguments---
+ Greetuser1("Great ","shivali umbarkar")
+
+
+ //challenge -4
+//   add two numbers and return sum 
+
+function Add(num1,num2)
+{
+//   let sum= num1+num2
+//   console.log(sum)
+return num1 + num2
+}
+console.log(Add(3,4))
+
+
+
+//challenge -4   function passing array 
+
+function  getfirstitem(arr)
+    {
+        return arr[1]
+    }
+    let firstitem=getfirstitem(["apple","banana","grapes"])
+    console.log(firstitem)

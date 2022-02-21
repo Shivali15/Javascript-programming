@@ -1,0 +1,12 @@
+{
+"manifest_version": 3,
+"version":"1.0",
+"name":"chromeextention",
+"action":
+{
+    "default_popup":"chromeExtention.html",
+    "default_icon":"station2.jpg"
+}
+
+
+}
