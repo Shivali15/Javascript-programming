@@ -88,7 +88,7 @@ messageEl.textContent=message
 function newcard()
 {
     console.log("drawing a new card from the deck!")
-if(isAlive === true && hasblackjack===flase)
+if(isAlive === true && hasblackjack=== false )
 {
     let card =getRandomcard()
 
